@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715B7F8A2946A17D00FFF2D8 /* Obstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F892946A17D00FFF2D8 /* Obstacles.swift */; };
+		715B7F8C2946CEB400FFF2D8 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F8B2946CEB400FFF2D8 /* MenuButton.swift */; };
+		715B7F8E2946D31000FFF2D8 /* HighScoresDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F8D2946D31000FFF2D8 /* HighScoresDisplay.swift */; };
+		715B7F902946D3B600FFF2D8 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F8F2946D3B600FFF2D8 /* StorageManager.swift */; };
+		715B7F922946D3CE00FFF2D8 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F912946D3CE00FFF2D8 /* FileInfo.swift */; };
+		715B7F952946D42000FFF2D8 /* HighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F942946D42000FFF2D8 /* HighScores.swift */; };
+		715B7F972946D4EC00FFF2D8 /* Scores.json in Resources */ = {isa = PBXBuildFile; fileRef = 715B7F962946D4EC00FFF2D8 /* Scores.json */; };
+		715B7F992946D73D00FFF2D8 /* GameOverDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7F982946D73D00FFF2D8 /* GameOverDisplay.swift */; };
+		71B5281C292B0D4A00A42595 /* Endless_Runner_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5281B292B0D4A00A42595 /* Endless_Runner_GameApp.swift */; };
+		71B5282D292B0D4C00A42595 /* Endless_Runner_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5282C292B0D4C00A42595 /* Endless_Runner_GameTests.swift */; };
+		71B52837292B0D4C00A42595 /* Endless_Runner_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52836292B0D4C00A42595 /* Endless_Runner_GameUITests.swift */; };
+		71B52839292B0D4C00A42595 /* Endless_Runner_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52838292B0D4C00A42595 /* Endless_Runner_GameUITestsLaunchTests.swift */; };
+		71B5284B292B0E2100A42595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B52845292B0E1F00A42595 /* Assets.xcassets */; };
+		71B5284D292B0E2100A42595 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52847292B0E2000A42595 /* Manager.swift */; };
+		71B52855292B0EDF00A42595 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52854292B0EDF00A42595 /* HomeView.swift */; };
+		71B52856292B0EDF00A42595 /* GameDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52851292B0EDE00A42595 /* GameDisplayView.swift */; };
+		71B52857292B0EDF00A42595 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52853292B0EDF00A42595 /* GameView.swift */; };
+		71B52858292B0EDF00A42595 /* PausedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52852292B0EDE00A42595 /* PausedView.swift */; };
+		71B5285C292B0EF000A42595 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5285A292B0EF000A42595 /* Player.swift */; };
+		71B5285D292B0EF000A42595 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5285B292B0EF000A42595 /* Background.swift */; };
+		71B5285E292B0EF000A42595 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B52859292B0EEF00A42595 /* GameConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71B52829292B0D4C00A42595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B52810292B0D4A00A42595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B52817292B0D4A00A42595;
+			remoteInfo = "Endless Runner Game";
+		};
+		71B52833292B0D4C00A42595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B52810292B0D4A00A42595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B52817292B0D4A00A42595;
+			remoteInfo = "Endless Runner Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		715B7F892946A17D00FFF2D8 /* Obstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacles.swift; sourceTree = "<group>"; };
+		715B7F8B2946CEB400FFF2D8 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		715B7F8D2946D31000FFF2D8 /* HighScoresDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresDisplay.swift; sourceTree = "<group>"; };
+		715B7F8F2946D3B600FFF2D8 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		715B7F912946D3CE00FFF2D8 /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		715B7F942946D42000FFF2D8 /* HighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScores.swift; sourceTree = "<group>"; };
+		715B7F962946D4EC00FFF2D8 /* Scores.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Scores.json; sourceTree = "<group>"; };
+		715B7F982946D73D00FFF2D8 /* GameOverDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverDisplay.swift; sourceTree = "<group>"; };
+		71B52818292B0D4A00A42595 /* Interstellar Package Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interstellar Package Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B5281B292B0D4A00A42595 /* Endless_Runner_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endless_Runner_GameApp.swift; sourceTree = "<group>"; };
+		71B52828292B0D4C00A42595 /* Endless Runner GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Endless Runner GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B5282C292B0D4C00A42595 /* Endless_Runner_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endless_Runner_GameTests.swift; sourceTree = "<group>"; };
+		71B52832292B0D4C00A42595 /* Endless Runner GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Endless Runner GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B52836292B0D4C00A42595 /* Endless_Runner_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endless_Runner_GameUITests.swift; sourceTree = "<group>"; };
+		71B52838292B0D4C00A42595 /* Endless_Runner_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endless_Runner_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71B52845292B0E1F00A42595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71B52847292B0E2000A42595 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		71B52851292B0EDE00A42595 /* GameDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDisplayView.swift; sourceTree = "<group>"; };
+		71B52852292B0EDE00A42595 /* PausedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausedView.swift; sourceTree = "<group>"; };
+		71B52853292B0EDF00A42595 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		71B52854292B0EDF00A42595 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		71B52859292B0EEF00A42595 /* GameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
+		71B5285A292B0EF000A42595 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		71B5285B292B0EF000A42595 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B52815292B0D4A00A42595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B52825292B0D4C00A42595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B5282F292B0D4C00A42595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715B7F8629463FD500FFF2D8 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				71B52847292B0E2000A42595 /* Manager.swift */,
+				715B7F932946D3D600FFF2D8 /* Persistence */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		715B7F932946D3D600FFF2D8 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				715B7F8F2946D3B600FFF2D8 /* StorageManager.swift */,
+				715B7F912946D3CE00FFF2D8 /* FileInfo.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		71B5280F292B0D4A00A42595 = {
+			isa = PBXGroup;
+			children = (
+				71B5281A292B0D4A00A42595 /* Endless Runner Game */,
+				71B5282B292B0D4C00A42595 /* Endless Runner GameTests */,
+				71B52835292B0D4C00A42595 /* Endless Runner GameUITests */,
+				71B52819292B0D4A00A42595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B52819292B0D4A00A42595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B52818292B0D4A00A42595 /* Interstellar Package Delivery.app */,
+				71B52828292B0D4C00A42595 /* Endless Runner GameTests.xctest */,
+				71B52832292B0D4C00A42595 /* Endless Runner GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B5281A292B0D4A00A42595 /* Endless Runner Game */ = {
+			isa = PBXGroup;
+			children = (
+				71B52865292B103C00A42595 /* View */,
+				71B52845292B0E1F00A42595 /* Assets.xcassets */,
+				715B7F8629463FD500FFF2D8 /* View Model */,
+				71B52864292B102F00A42595 /* Model */,
+				71B5281B292B0D4A00A42595 /* Endless_Runner_GameApp.swift */,
+			);
+			path = "Endless Runner Game";
+			sourceTree = "<group>";
+		};
+		71B5282B292B0D4C00A42595 /* Endless Runner GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B5282C292B0D4C00A42595 /* Endless_Runner_GameTests.swift */,
+			);
+			path = "Endless Runner GameTests";
+			sourceTree = "<group>";
+		};
+		71B52835292B0D4C00A42595 /* Endless Runner GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71B52836292B0D4C00A42595 /* Endless_Runner_GameUITests.swift */,
+				71B52838292B0D4C00A42595 /* Endless_Runner_GameUITestsLaunchTests.swift */,
+			);
+			path = "Endless Runner GameUITests";
+			sourceTree = "<group>";
+		};
+		71B52864292B102F00A42595 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71B5285A292B0EF000A42595 /* Player.swift */,
+				71B5285B292B0EF000A42595 /* Background.swift */,
+				71B52859292B0EEF00A42595 /* GameConstants.swift */,
+				715B7F892946A17D00FFF2D8 /* Obstacles.swift */,
+				715B7F942946D42000FFF2D8 /* HighScores.swift */,
+				715B7F962946D4EC00FFF2D8 /* Scores.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71B52865292B103C00A42595 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71B52851292B0EDE00A42595 /* GameDisplayView.swift */,
+				71B52853292B0EDF00A42595 /* GameView.swift */,
+				71B52854292B0EDF00A42595 /* HomeView.swift */,
+				71B52852292B0EDE00A42595 /* PausedView.swift */,
+				715B7F8B2946CEB400FFF2D8 /* MenuButton.swift */,
+				715B7F8D2946D31000FFF2D8 /* HighScoresDisplay.swift */,
+				715B7F982946D73D00FFF2D8 /* GameOverDisplay.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B52817292B0D4A00A42595 /* Endless Runner Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B5283C292B0D4D00A42595 /* Build configuration list for PBXNativeTarget "Endless Runner Game" */;
+			buildPhases = (
+				71B52814292B0D4A00A42595 /* Sources */,
+				71B52815292B0D4A00A42595 /* Frameworks */,
+				71B52816292B0D4A00A42595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Endless Runner Game";
+			productName = "Endless Runner Game";
+			productReference = 71B52818292B0D4A00A42595 /* Interstellar Package Delivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71B52827292B0D4C00A42595 /* Endless Runner GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B5283F292B0D4D00A42595 /* Build configuration list for PBXNativeTarget "Endless Runner GameTests" */;
+			buildPhases = (
+				71B52824292B0D4C00A42595 /* Sources */,
+				71B52825292B0D4C00A42595 /* Frameworks */,
+				71B52826292B0D4C00A42595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B5282A292B0D4C00A42595 /* PBXTargetDependency */,
+			);
+			name = "Endless Runner GameTests";
+			productName = "Endless Runner GameTests";
+			productReference = 71B52828292B0D4C00A42595 /* Endless Runner GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71B52831292B0D4C00A42595 /* Endless Runner GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B52842292B0D4D00A42595 /* Build configuration list for PBXNativeTarget "Endless Runner GameUITests" */;
+			buildPhases = (
+				71B5282E292B0D4C00A42595 /* Sources */,
+				71B5282F292B0D4C00A42595 /* Frameworks */,
+				71B52830292B0D4C00A42595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B52834292B0D4C00A42595 /* PBXTargetDependency */,
+			);
+			name = "Endless Runner GameUITests";
+			productName = "Endless Runner GameUITests";
+			productReference = 71B52832292B0D4C00A42595 /* Endless Runner GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B52810292B0D4A00A42595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					71B52817292B0D4A00A42595 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					71B52827292B0D4C00A42595 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 71B52817292B0D4A00A42595;
+					};
+					71B52831292B0D4C00A42595 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 71B52817292B0D4A00A42595;
+					};
+				};
+			};
+			buildConfigurationList = 71B52813292B0D4A00A42595 /* Build configuration list for PBXProject "Endless Runner Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B5280F292B0D4A00A42595;
+			productRefGroup = 71B52819292B0D4A00A42595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B52817292B0D4A00A42595 /* Endless Runner Game */,
+				71B52827292B0D4C00A42595 /* Endless Runner GameTests */,
+				71B52831292B0D4C00A42595 /* Endless Runner GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B52816292B0D4A00A42595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B7F972946D4EC00FFF2D8 /* Scores.json in Resources */,
+				71B5284B292B0E2100A42595 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B52826292B0D4C00A42595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B52830292B0D4C00A42595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B52814292B0D4A00A42595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B7F8A2946A17D00FFF2D8 /* Obstacles.swift in Sources */,
+				71B52855292B0EDF00A42595 /* HomeView.swift in Sources */,
+				71B5281C292B0D4A00A42595 /* Endless_Runner_GameApp.swift in Sources */,
+				715B7F922946D3CE00FFF2D8 /* FileInfo.swift in Sources */,
+				71B5284D292B0E2100A42595 /* Manager.swift in Sources */,
+				71B5285D292B0EF000A42595 /* Background.swift in Sources */,
+				71B52856292B0EDF00A42595 /* GameDisplayView.swift in Sources */,
+				715B7F952946D42000FFF2D8 /* HighScores.swift in Sources */,
+				715B7F8C2946CEB400FFF2D8 /* MenuButton.swift in Sources */,
+				71B5285C292B0EF000A42595 /* Player.swift in Sources */,
+				71B52858292B0EDF00A42595 /* PausedView.swift in Sources */,
+				71B52857292B0EDF00A42595 /* GameView.swift in Sources */,
+				715B7F992946D73D00FFF2D8 /* GameOverDisplay.swift in Sources */,
+				71B5285E292B0EF000A42595 /* GameConstants.swift in Sources */,
+				715B7F8E2946D31000FFF2D8 /* HighScoresDisplay.swift in Sources */,
+				715B7F902946D3B600FFF2D8 /* StorageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B52824292B0D4C00A42595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B5282D292B0D4C00A42595 /* Endless_Runner_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B5282E292B0D4C00A42595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B52837292B0D4C00A42595 /* Endless_Runner_GameUITests.swift in Sources */,
+				71B52839292B0D4C00A42595 /* Endless_Runner_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71B5282A292B0D4C00A42595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B52817292B0D4A00A42595 /* Endless Runner Game */;
+			targetProxy = 71B52829292B0D4C00A42595 /* PBXContainerItemProxy */;
+		};
+		71B52834292B0D4C00A42595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B52817292B0D4A00A42595 /* Endless Runner Game */;
+			targetProxy = 71B52833292B0D4C00A42595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71B5283A292B0D4D00A42595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Interstellar Package Delivery";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71B5283B292B0D4D00A42595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Interstellar Package Delivery";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71B5283D292B0D4D00A42595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = SWWRFS4CBL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.itl5019.Endless-Runner-Game";
+				PRODUCT_NAME = "Interstellar Package Delivery";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71B5283E292B0D4D00A42595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = SWWRFS4CBL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.itl5019.Endless-Runner-Game";
+				PRODUCT_NAME = "Interstellar Package Delivery";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71B52840292B0D4D00A42595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWWRFS4CBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.itl5019.Endless-Runner-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endless Runner Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Endless Runner Game";
+			};
+			name = Debug;
+		};
+		71B52841292B0D4D00A42595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWWRFS4CBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.itl5019.Endless-Runner-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endless Runner Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Endless Runner Game";
+			};
+			name = Release;
+		};
+		71B52843292B0D4D00A42595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWWRFS4CBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.itl5019.Endless-Runner-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Endless Runner Game";
+			};
+			name = Debug;
+		};
+		71B52844292B0D4D00A42595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWWRFS4CBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.itl5019.Endless-Runner-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Endless Runner Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B52813292B0D4A00A42595 /* Build configuration list for PBXProject "Endless Runner Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B5283A292B0D4D00A42595 /* Debug */,
+				71B5283B292B0D4D00A42595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B5283C292B0D4D00A42595 /* Build configuration list for PBXNativeTarget "Endless Runner Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B5283D292B0D4D00A42595 /* Debug */,
+				71B5283E292B0D4D00A42595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B5283F292B0D4D00A42595 /* Build configuration list for PBXNativeTarget "Endless Runner GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B52840292B0D4D00A42595 /* Debug */,
+				71B52841292B0D4D00A42595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B52842292B0D4D00A42595 /* Build configuration list for PBXNativeTarget "Endless Runner GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B52843292B0D4D00A42595 /* Debug */,
+				71B52844292B0D4D00A42595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B52810292B0D4A00A42595 /* Project object */;
+}
